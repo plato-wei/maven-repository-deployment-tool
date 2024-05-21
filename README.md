@@ -1,4 +1,8 @@
-  This project is for publishing your own jar packages to a remote repository and using git or github as a maven mirror repository. At present, github can use site-maven-plugin to complete jar package deployment, and can also use github's package function, but git does not have similar plug-ins and functions. Therefore, we directly use the code repository as a mirror repository for maven to place the jar packages we developed. Therefore, this project, combined with the maven plugin, provides a common way to push jar packages to git or github platforms.
+[English](https://github.com/plato-wei/maven-repository-deployment-tool/blob/main/README.md)|[简体中文](https://github.com/plato-wei/maven-repository-deployment-tool/blob/main/README-zh.md)
+
+------
+
+This project is for publishing your own jar packages to a remote repository and using git or github as a maven mirror repository. At present, github can use site-maven-plugin to complete jar package deployment, and can also use github's package function, but git does not have similar plug-ins and functions. Therefore, we directly use the code repository as a mirror repository for maven to place the jar packages we developed. Therefore, this project, combined with the maven plugin, provides a common way to push jar packages to git or github platforms.
 
 # Quick Start
 

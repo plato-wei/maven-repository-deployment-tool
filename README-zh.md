@@ -1,4 +1,8 @@
-	    这个项目是用于发布自己的jar包到远程仓库，并且使用git或github作为maven镜像仓库。目前，github可以使用site-maven-plugin完成jar包部署，也可使用github的package功能，但是git没有类似的插件和功能。于是，我们直接使用代码仓库作为maven的镜像仓库来放置自己开发的jar包。因此，本项目结合maven插件，提供了一种通用的方式将jar包推送到git或github平台。
+[English](https://github.com/plato-wei/maven-repository-deployment-tool/blob/main/README.md)|[简体中文](https://github.com/plato-wei/maven-repository-deployment-tool/blob/main/README-zh.md)
+
+------
+
+​        这个项目是用于发布自己的jar包到远程仓库，并且使用git或github作为maven镜像仓库。目前，github可以使用site-maven-plugin完成jar包部署，也可使用github的package功能，但是git没有类似的插件和功能。于是，我们直接使用代码仓库作为maven的镜像仓库来放置自己开发的jar包。因此，本项目结合maven插件，提供了一种通用的方式将jar包推送到git或github平台。
 
 # 快速开始
 
