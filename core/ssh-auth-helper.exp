@@ -1,0 +1,13 @@
+#!/usr/bin/expect -f
+
+set private_file_path [lindex $argv 0]
+set passphrase [lindex $argv 1]
+
+spawn ssh-add "$private_file_path"
+expect {
+  "Enter passphrase for *" {
+    send "$passphrase\r"
+    exp_continue
+  }
+  eof
+}
